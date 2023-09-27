@@ -1,4 +1,4 @@
-interface PersonInterface {
+type PersonInterface = {
     name: string;
     age:number;
     greet(): string;
