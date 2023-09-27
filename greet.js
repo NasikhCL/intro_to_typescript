@@ -1,5 +1,5 @@
 "use strict";
-function greet(person) {
+function greetHim(person) {
     return "hello " + person.name + " your age is: " + person.age;
 }
-console.log(greet({ name: "nasikh", age: 23 }));
+console.log(greetHim({ name: "nasikh", age: 23 }));
