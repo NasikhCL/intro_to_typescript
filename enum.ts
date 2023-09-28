@@ -8,8 +8,9 @@ enum Arithemtic {
 
 function calculateThis ( a: number, b: number, operation: Arithemtic){
     // do the logic
-    console.log('this is the answer')
+    return 'this is the answer'
 }
 
 
-let a: string = calculateThis(1,2, Arithemtic.Add)
+let answerOfThis : string = calculateThis(1,2, Arithemtic.Add)
+console.log(answerOfThis)
